@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FieldForce Suite]">
+  <test thread-count="5" name="FieldForce Tests(failed)">
+    <classes>
+      <class name="com.qa.tests.AddCustomerTest">
+        <methods>
+          <include name="testAddCustomerJourney"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.AddCustomerTest -->
+      <class name="com.qa.tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testLoginJourney"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.qa.tests.LoginTest -->
+      <class name="com.qa.tests.PunchInTest">
+        <methods>
+          <include name="testPunchInToastMessage"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.tests.PunchInTest -->
+    </classes>
+  </test> <!-- FieldForce Tests(failed) -->
+</suite> <!-- Failed suite [FieldForce Suite] -->

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FieldForce Suite">
+    <test name="FieldForce Tests">
+        <classes>
+            <class name="com.qa.tests.LoginTest" />
+            <class name="com.qa.tests.PunchInTest" />
+            <class name="com.qa.tests.AddCustomerTest" />
+        </classes>
+    </test>
+</suite>
